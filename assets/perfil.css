@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+#container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#menu {
+    width: 20%;
+    float: left;
+    background-color: #2d7b51;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #ffffff;
+}
+
+#menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#content {
+    width: 80%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#profile-info {
+    background-color: #2d7b51;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#profile-info h1 {
+    margin: 0;
+}
+
+#order-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#order-history th, #order-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #000000;
+}
+td{
+    color: black;
+}
+#order-history h2{
+    color: black;
+}
+
+#order-history th {
+    background-color: #2d7b51;
+    color: #ffffff;
+}
+
+#order-history tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,32 @@
+RewriteEngine On
+RewriteRule ^minha-conta/$ perfil_user.php [NC,L]
+RewriteRule ^minha-conta/dados-cadastrados/$ dados_cadastrados.php [NC,L]
+RewriteRule ^minha-conta/sugestoes-e-reclamacoes/$ reclamacao.php [NC,L]
+RewriteRule ^feed/$ feed.php [NC,L]
+RewriteRule ^receitas-gerim/$ receitas-api.php [NC,L]
+RewriteRule ^minha-conta/historico-de-compra/$ historico-compra_cliente.php [NC,L]
+RewriteRule ^termos-de-uso/$ termos.php [NC,L]
+RewriteRule ^troca-e-devolucao/$ troca_devolucao.php [NC,L]
+RewriteRule ^login/$ login.php [NC,L]
+RewriteRule ^cadastro/$ cadastro.php [NC,L]
+RewriteRule ^oferta$ oferta_cliente.php [NC,L]
+RewriteRule ^departamento$ departamento.php [NC,L]
+RewriteRule ^erro-compatibilidade/$ erroexibicao.php [NC,L]
+RewriteRule ^sair/$ sair.php [NC,L]
+
+#RewriteRule ^departamento/([a-zA-Z0-9_-]+)$ departamento.php?categoria=$1 [L]
+#redirecionar usuario para base
+
+ErrorDocument 404 http://localhost/gerim/
+ErrorDocument 403 http://localhost/gerim/
+
+
+#bloquear acesso a diretorios internos
+
+Options -Indexes
+
+#bloquear acesso a arquivos de diretorios internos
+
+RewriteRule ^dao/ -[F]
+RewriteRule ^models/ -[F]
+RewriteRule ^partials/ -[F]

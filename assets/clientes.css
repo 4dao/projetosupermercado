@@ -1,0 +1,118 @@
+.block{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.block_option a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-color: #2d7b51;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0 auto; /* Isso centraliza o bloco .product na tela */
+}
+table{
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid #2d7b51;
+    transition: 1s;
+}
+table td{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+}
+/* Estilo para todas as linhas */
+table tr {
+    background-color: rgb(222, 222, 222); /* Cor de fundo para linhas pares ou ímpares */
+}
+
+/* Estilo para linhas ímpares */
+table tr:nth-child(odd) {
+    background-color: #ffffff7e; /* Cor de fundo para linhas ímpares */
+}
+
+td a {
+    color: rgb(0, 0, 0);
+}
+#acao{
+    width: 250px;
+    height: 100%;
+}
+
+.button{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 3px;
+}
+
+
+/* pesquisa */
+
+#forme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+#forme input {
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #2d7b51;
+}
+
+#forme button {
+    width: 30px;
+    height: 30px;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #2d7b51;
+}
+
+#forme button img {
+    width: 20px;
+}
+
+
+
+
+.editar input{
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+}

@@ -1,0 +1,87 @@
+/* pagina pedidos */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+    padding-right: 50px;
+    color: black;
+}
+#container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cliente {
+    display: flex;
+    gap: 10px;
+    border: 1px solid #f04;
+    padding: 3px;
+}
+
+#cliente span {
+    color: green;
+}
+
+.pedido {
+    padding: 5px;
+    border: 2px solid #2d7b51;
+    /*border: 2px solid rgb(0, 132, 255);*/
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.pedido-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pedido-div {
+    display: flex;
+    gap: 10px;
+}
+
+#item {
+    font-size: 15px;
+}
+
+#preco {
+    color: green;
+}
+
+.pedido-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pedido-2 p {
+    margin: 0;
+    color: green;
+}
+
+.pedido button {
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pedido button:hover {
+    border-color: #2d7b51;
+    color: green;
+    box-shadow: 0 0 10px black;
+}
+
+
+.content-compras{
+    display: none;
+}
+
+#exibir-compra{
+    margin-bottom: 5px;
+}
